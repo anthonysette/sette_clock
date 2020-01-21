@@ -1,0 +1,17 @@
+name: sette_clock
+description: An elegant analog clock that supports light/dark theme.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/light_hour.png
+   - assets/dark_hour.png
